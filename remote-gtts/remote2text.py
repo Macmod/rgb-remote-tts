@@ -24,12 +24,13 @@ class Remote2Text:
             self.text = ''
             self.sent = False
 
-        self.text += self.table[code]
+        char = self.table[code]
+        self.text += char
 
         if self.verbose:
             print(self.text)
 
-        return None
+        return char
 
     def process(self, raw):
         scan = search(r"scancode = 0x([0-9a-z]{2})", raw)

@@ -16,12 +16,10 @@ while True:
 
     if response:
         tts = gTTS(text=response, lang='pt')
-
         tmp = NamedTemporaryFile(delete=False)
         tts.write_to_fp(tmp)
+
         path = os.path.join(gettempdir(), str(tmp.name))
         vlc.MediaPlayer(path).play()
 
         tmp.close()
-
-        print(response)
