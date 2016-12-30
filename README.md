@@ -1,5 +1,7 @@
 # RGB-Remote-TTS
 
+![banner](https://cloud.githubusercontent.com/assets/6147168/21569394/9e1d963a-cea3-11e6-8574-8b86bf9b9b71.png)
+
 Turning a `Magic Lightning` RGB remote into a text-to-speech controller with a RTL2832U dongle.
 
 # How?
