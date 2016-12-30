@@ -12,6 +12,8 @@ Turning a `Magic Lightning` RGB remote into a text-to-speech controller with a R
 4. Run `rgb-remote-tts.sh` to begin listening for events.
 5. Type something interesting in your RGB controller and hit SEND.
 
+![gif](https://i.imgur.com/JRzzVZ3.gif)
+
 # Why?
 
 Let me know if you find out.
