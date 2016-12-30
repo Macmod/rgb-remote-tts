@@ -4,10 +4,11 @@ Turning a `Magic Lightning` RGB remote into a text-to-speech controller with a R
 
 # How?
 
-1. Install [librtlsdr](https://github.com/librtlsdr/librtlsdr) and make sure you have `rtl_ir` and `ir-keytable` working properly.
+1. Install [librtlsdr](https://github.com/librtlsdr/librtlsdr).
 2. Run `pip install -r requirements.txt` to pull python dependencies.
-3. Run `rgb-remote-tts.sh` to begin listening for events.
-4. Type something interesting in your RGB controller and hit SEND.
+3. Plug in your RTL2832U and make sure you have `rtl_ir` and `ir-keytable` working properly.
+4. Run `rgb-remote-tts.sh` to begin listening for events.
+5. Type something interesting in your RGB controller and hit SEND.
 
 # Why?
 
